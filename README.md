@@ -138,9 +138,7 @@ An application includes a set of inter-connected forms.</p>
 
 <h4><a name="Pojed">Single Form</a></h4>
 
-<p><i>Single Form</i> displays one record on the screen.  The fields
-are put into one
-column by default.</p>
+<p><i>Single Form</i> displays one record on the screen.  The fields are put into one column by default.</p>
 
 <p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/6_6.png"></p>
 
@@ -173,8 +171,13 @@ like on a Single Form.</p>
 <p>In <i>Design view</i> we create and place all controls of the form, e.g. text boxes
 connected with columns of the database, text labels (constant strings).</p>
 
-<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/6_5.png"></p>
-<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/6_1.png"></p>
+<p align="center">
+	<img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/6_5.png">
+</p>
+
+<p align="center">
+	<img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/6_1.png">
+</p>
 
 <hr><h3><a name="Pod">Subform</a></h3>
 
@@ -182,11 +185,15 @@ connected with columns of the database, text labels (constant strings).</p>
 form is called <i>a subform</i>. A form with a subform usually renders data
 from two tables connected with a many-one relationship.</p>
 
-<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/n_1.png"></p>
+<p align="center">
+	<img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/n_1.png">
+</p>
 
 <p>And the same form in the design view:</p>
 
-<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/n_2.png"></p>
+<p align="center">
+	<img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/n_2.png">
+</p>
 
 <p>A subform is a form itself.</p>
 
@@ -208,7 +215,9 @@ In order to change the current page, the user presses keys
 <p><i>Tabs</i> are also useful, e.g. to divide the view into basic information 
 and Curriculum vitae (a field of type <i>Memo</i>).</p>
 
-<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/6_9.png"></p>
+<p align="center">
+	<img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/6_9.png">
+</p>
 
 <hr><h3><a name="Panel">Control panel</a></h3>
 
@@ -217,7 +226,9 @@ It contains only buttons, labels and images.
 A user may click one of them to perform an operation on
 data. Such a form is not connected to any table or query.</p>
 
-<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/6_10.png"></p>
+<p align="center">
+	<img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/6_10.png">
+</p>
 
 <hr><h3><a name="Kreator">Form wizard</a></h3>
 
@@ -232,13 +243,17 @@ and <i>Departments</i>.</p>
 <li>A form with a subform.  We choose table <i>Departments</i> for
 	<i>the main form</i> and <i>Persons</i> for <i>the subform</i>.
 
-	<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/6_12.png"></p>
+<p align="center">
+	<img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/6_12.png">
+</p>
 	
-	<p>Here is the form created by the wizard:</p>
+<p>Here is the form created by the wizard:</p>
 
-	<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/6_14.png"></p>
+<p align="center">
+	<img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/6_14.png">
+</p>
 
-	<p>This form can be used to view departments and their persons as well
+<p>This form can be used to view departments and their persons as well
 	as to enter new departments and persons. You can also update and delete records
 	unless you break the referential integrity.</p>
 
@@ -246,16 +261,21 @@ and <i>Departments</i>.</p>
 	information on the department of each person.  This form will be based on a query
 	which joins tables <i>Persons</i> and <i>Departments</i>.
 
-	<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/6_11.png"></p>
+<p align="center">
+	<img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/6_11.png">
+</p>
 
-	<p>Here is the form created by the wizard:</p>
+<p>Here is the form created by the wizard:</p>
 
-	<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/6_13.png"></p>
+<p align="center">
+	<img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad06/images/6_13.png">
+</p>
 
-	<p>This form can be used to view the data on each employee with the information
+<p>This form can be used to view the data on each employee with the information
 	on his/her department, to enter a new person and to assign him/her to an existing department.
 	You can also update and delete records
-	unless you break the referential integrity.</p>
+	unless you break the referential integrity.
+</p>
 </ol>
 
 
